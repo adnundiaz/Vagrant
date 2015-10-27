@@ -1,6 +1,6 @@
 #!/bin/bash
-
-apt-get install nodejs
-apt-get install npm
+apt-get update
+apt-get install -y nodejs
+apt-get install -y npm
 npm install express
 npm install mongo
